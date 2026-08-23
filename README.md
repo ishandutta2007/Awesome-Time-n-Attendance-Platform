@@ -1,6 +1,6 @@
 # Awesome-Time-n-Attendance-Platform
 
-## Top Time & Attendance Platform Ecosystem
+### Top Time & Attendance Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Employee Time Tracking, Attendance, Workforce Scheduling, Timesheets & Labor Management*  
