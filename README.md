@@ -83,7 +83,7 @@ A comprehensive, market-sorted directory of leading commercial Time & Attendance
 
 Explore the top open-source time-tracking, attendance-recording, timesheet-auditing, and human-resource-management systems. Sorted in descending order by **GitHub Star Count** (each badge links to the repository stargazers page).
 
-| Project & Repo Link | Star Count | Language / Stack | License | Key Features & Focus |
+| Project & Repo Link | Star_Count | Language / Stack | License | Key Features & Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | **[ERPNext](https://github.com/frappe/erpnext)** | [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python, JavaScript | GPL-3.0 | Complete open-source ERP suite containing employee databases, attendance logs, shift assignment, timesheets, payroll, and leave management. |
 | **[Nextcloud Server](https://github.com/nextcloud/server)** | [![Nextcloud Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | PHP, JavaScript | AGPL-3.0 | Self-hosted collaboration cloud ecosystem extendable with community Time Tracking, Appointments, Calendar, and Form apps. |
