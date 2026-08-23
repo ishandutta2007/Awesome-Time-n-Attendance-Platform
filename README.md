@@ -1,248 +1,183 @@
-# Awesome-Time-n-Attendance-Platform
+# Awesome Time & Attendance Platforms ⏱️
 
-### Top Time & Attendance Platform Ecosystem
+<div align="center">
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Employee Time Tracking, Attendance, Workforce Scheduling, Timesheets & Labor Management*  
-**Last updated: August 2026**
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Time-n-Attendance-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Time-n-Attendance-Platform?style=social&color=white" alt="GitHub Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Time-n-Attendance-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Time-n-Attendance-Platform?style=social&color=white" alt="GitHub Forks" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Time & Attendance**. These tools help organizations capture employee working hours, manage clock-ins and clock-outs, automate timesheets, handle overtime and leave, enforce attendance policies, manage schedules, track remote/mobile workers, and integrate workforce data with payroll and HR systems.
+<br/><br/>
 
-**Examples** include UKG Ready, Deputy, QuickBooks Time, Replicon, Clockify, Jibble, Hubstaff, TimeCamp, Factorial, Connecteam, When I Work, Buddy Punch, TimeClock Plus, and Homebase.
+<a href="https://github.com/ishandutta2007/Awesome-Time-n-Attendance-Platform">
+  <img src="assets/banner.svg" alt="Awesome Time & Attendance Platforms Banner" width="100%" />
+</a>
 
-**Open-source emphasis**: Complete open-source equivalents to enterprise workforce-management platforms are relatively uncommon. This section is therefore expanded with open-source **time trackers, timesheet systems, attendance applications, HRM/ERP platforms, workforce-management components, scheduling tools, and self-hosted employee-management systems**. **Kimai**, **solidtime**, **Cattr**, **Traggo**, **Open Time Clock**, **ERPNext**, **Frappe HR**, **Dolibarr**, **Ever Gauzy**, and **Worklenz** are particularly relevant building blocks. Kimai, for example, provides punch-in/punch-out, multi-user support, reporting, APIs, permissions, and self-hosting under AGPL-3.0. :contentReference[oaicite:0]{index=0}
+<br/>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or project repositories.
+### 🌟 Curated Directory of Enterprise SaaS & Open-Source Time & Attendance Systems
 
-## Table of Contents
+**Empowering workforce management, automated employee timesheets, shift scheduling, geofencing time clocks, biometric punches, leave tracking, and payroll integrations.**
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Additional Strong Open-Source Options](#additional-strong-open-source-options)
-- [Frameworks for Building Custom Time & Attendance Platforms](#frameworks-for-building-custom-time--attendance-platforms)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+*Last updated: August 2026* 🚀
 
-## SaaS/Hosted Platforms
-
-- **[UKG Ready](https://www.ukg.com/products/ukg-ready)**  
-  All-in-one HR, payroll, talent, time, attendance, scheduling, and workforce platform. Its time-and-attendance capabilities automate hour tracking, approvals, time-off requests, overtime and attendance exceptions. :contentReference[oaicite:1]{index=1}
-
-- **[Deputy](https://www.deputy.com/)**  
-  Workforce-management platform for employee scheduling, time tracking, attendance, payroll preparation, labor compliance, and workforce communication.
-
-- **[QuickBooks Time](https://quickbooks.intuit.com/time-tracking/)**  
-  Time-tracking platform integrated with QuickBooks for employee timesheets, GPS/mobile tracking, scheduling, approvals, and payroll workflows.
-
-- **[Replicon](https://www.replicon.com/)**  
-  Cloud time-tracking and workforce-management platform covering timesheets, project time, attendance, payroll compliance, and workforce analytics.
-
-- **[Clockify](https://clockify.me/)**  
-  Time-tracking and timesheet platform supporting employee hours, projects, attendance, reports, scheduling, and productivity tracking.
-
-- **[Jibble](https://www.jibble.io/)**  
-  Employee time and attendance platform supporting clock-in/out, mobile attendance, GPS, geofencing, facial recognition, timesheets, and payroll-related workflows.
-
-- **[Hubstaff](https://hubstaff.com/)**  
-  Workforce time-tracking platform with timesheets, employee scheduling, GPS/location tracking, productivity monitoring, payroll integrations, and project tracking.
-
-- **[TimeCamp](https://www.timecamp.com/)**  
-  Automatic time-tracking and timesheet platform with productivity tracking, project accounting, attendance, invoicing, and reporting.
-
-- **[Factorial](https://factorialhr.com/)**  
-  HR platform with time tracking, attendance, scheduling, leave management, payroll-related workflows, and workforce administration.
-
-- **[Connecteam](https://connecteam.com/)**  
-  Employee-management platform designed for deskless and frontline teams, combining time tracking, scheduling, payroll preparation, communication, and workforce operations.
-
-- **[When I Work](https://wheniwork.com/)**  
-  Employee scheduling and time-tracking platform for shift-based organizations with attendance, scheduling, availability, and workforce communication.
-
-- **[Buddy Punch](https://buddypunch.com/)**  
-  Online employee time-clock platform supporting clock-in/out, scheduling, overtime, PTO, GPS, employee time tracking, and payroll integrations.
-
-- **[TimeClock Plus](https://www.timeclockplus.com/)**  
-  Workforce-management platform for time and attendance, scheduling, leave, labor compliance, and workforce analytics.
-
-- **[Homebase](https://joinhomebase.com/)**  
-  SMB-focused workforce platform combining time clocks, scheduling, payroll tools, HR, employee communication, and attendance management.
-
-- **[UKG Workforce Ready](https://www.ukg.com/products/ukg-ready)**  
-  Workforce-management capabilities covering time and attendance, scheduling, HR, payroll, benefits, and talent management. UKG Ready's current platform combines these functions in a unified system. :contentReference[oaicite:2]{index=2}
-
-- **[UKG Pro Workforce Management](https://www.ukg.com/products/ukg-pro-workforce-management)**  
-  Enterprise workforce-management platform supporting time and attendance, scheduling, workforce intelligence, compliance, and labor-management workflows. :contentReference[oaicite:3]{index=3}
-
-- **[ADP Workforce Now](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)**  
-  HCM platform with time and attendance, payroll, HR, scheduling, workforce management, and compliance capabilities.
-
-- **[Paychex Flex](https://www.paychex.com/payroll/paychex-flex)**  
-  Payroll and HR platform with time and attendance, scheduling, employee self-service, and workforce-management capabilities.
-
-- **[BambooHR](https://www.bamboohr.com/)**  
-  HR platform with employee records, time tracking, PTO, attendance-related workflows, and workforce administration.
-
-- **[Rippling](https://www.rippling.com/)**  
-  Workforce platform combining HR, payroll, IT, benefits, time tracking, and employee-management workflows.
-
-- **[Gusto](https://gusto.com/)**  
-  SMB payroll and HR platform supporting employee time tracking, payroll, benefits, PTO, and workforce administration.
-
-- **[Paycor](https://www.paycor.com/)**  
-  HCM platform covering payroll, time and attendance, scheduling, HR, workforce management, and employee administration.
-
-- **[Paylocity](https://www.paylocity.com/)**  
-  Cloud HCM platform with time and labor management, scheduling, payroll, HR, and employee self-service.
-
-- **[Ceridian Dayforce](https://www.dayforce.com/)**  
-  Enterprise HCM and workforce-management platform covering time, attendance, scheduling, payroll, HR, and workforce analytics.
-
-- **[Workday](https://www.workday.com/)**  
-  Enterprise HCM platform with workforce-management capabilities including time tracking, absence management, scheduling, payroll, and workforce analytics.
-
-- **[Oracle HCM](https://www.oracle.com/human-capital-management/)**  
-  Enterprise HCM suite with workforce management, time and labor, absence, scheduling, payroll, and employee-management capabilities.
-
-- **[SAP SuccessFactors](https://www.sap.com/products/hcm.html)**  
-  Enterprise HCM suite with time tracking, time-off, workforce scheduling, employee data, payroll integration, and workforce-management functionality.
-
-- **[Zoho People](https://www.zoho.com/people/)**  
-  HR platform with attendance, timesheets, shift scheduling, leave, employee self-service, and workforce-management features.
-
-- **[BambooHR Time Tracking](https://www.bamboohr.com/)**  
-  Employee time-tracking and timesheet capabilities integrated with broader HR management.
-
-- **[QuickBooks Online Time Tracking](https://quickbooks.intuit.com/)**  
-  Time-entry workflows integrated with accounting, payroll, projects, and invoicing.
-
-- **[Everhour](https://everhour.com/)**  
-  Time-tracking and timesheet platform integrated with project-management systems, budgets, reporting, and team workflows.
-
-- **[Toggl Track](https://toggl.com/track/)**  
-  Time-tracking platform for employees and teams with timesheets, reporting, project tracking, billable hours, and productivity insights.
-
-- **[Harvest](https://www.getharvest.com/)**  
-  Time-tracking and expense platform supporting timesheets, project budgets, invoicing, reporting, and team utilization.
-
-- **[Paymo](https://www.paymoapp.com/)**  
-  Project-management platform incorporating time tracking, timesheets, team scheduling, resource planning, and invoicing.
-
-- **[Scoro](https://www.scoro.com/)**  
-  Work-management platform with time tracking, timesheets, scheduling, project management, resource planning, and financial management.
-
-- **[Timely](https://timelyapp.com/)**  
-  Automated time-tracking platform with employee timesheets, project tracking, scheduling, and utilization reporting.
-
-## Open-Source GitHub Projects
-
-- **[Kimai](https://github.com/kimai/kimai)**  
-  One of the strongest open-source time-tracking platforms. Supports punch-in/punch-out, multi-user and multi-timezone operation, reporting, exports, APIs, permissions, authentication, and self-hosting. Licensed under AGPL-3.0. :contentReference[oaicite:4]{index=4}
-
-- **[solidtime](https://github.com/solidtime-io/solidtime)**  
-  Modern open-source time-tracking application for teams and individuals, designed for self-hosted deployments and time-entry management.
-
-- **[Cattr](https://github.com/cattr-app/Cattr)**  
-  Open-source time-tracking platform designed for teams, with employee activity and working-time tracking capabilities.
-
-- **[Traggo](https://github.com/traggo/server)**  
-  Open-source time-tracking tool using a tag-based approach for recording and organizing working time.
-
-- **[openTimetool](https://github.com/solidar-it/openTimetool)**  
-  Open-source time-recording application suitable for organizations that need self-hosted employee time management.
-
-- **[TimeTagger](https://github.com/almarklein/timetagger)**  
-  Open-source time-tracking application with a web interface and flexible time-entry model.
-
-- **[ActivityWatch](https://github.com/ActivityWatch/activitywatch)**  
-  Open-source automated activity tracker that records application and computer activity for personal productivity and time analysis.
-
-- **[Kimai Desktop / Mobile Ecosystem](https://github.com/kimai)**  
-  Community-maintained tools and integrations extending Kimai's open-source time-tracking infrastructure.
-
-- **[ERPNext](https://github.com/frappe/erpnext)**  
-  Open-source ERP containing employee, attendance, timesheet, payroll, leave, project, and HR functionality. It can serve as the foundation for a broader self-hosted workforce-management system.
-
-- **[Frappe HR](https://github.com/frappe/hrms)**  
-  Open-source HRMS application built on Frappe with employee management, attendance, shifts, leave, payroll, expense, and HR workflows.
-
-- **[Frappe Framework](https://github.com/frappe/frappe)**  
-  Open-source application framework underlying Frappe HR and ERPNext, useful for building custom attendance, payroll, scheduling, and workforce applications.
-
-- **[Dolibarr](https://github.com/Dolibarr/dolibarr)**  
-  Open-source ERP/CRM platform with human-resources, project, timesheet, expense, and business-management capabilities.
-
-- **[Ever Gauzy](https://github.com/ever-co/ever-gauzy)**  
-  Open-source business-management platform combining HR, employee management, projects, time tracking, productivity, and related workforce functionality.
-
-- **[Worklenz](https://github.com/Worklenz/worklenz)**  
-  Open-source project and work-management platform with time tracking, resource planning, tasks, timesheets, reports, and analytics.
-
-- **[TimeTracker](https://github.com/raiviveik/TimeTracker)**  
-  Community open-source time-tracking projects that can be adapted for employee hours and timesheet workflows.
-
-- **[ActivityWatch](https://github.com/ActivityWatch/activitywatch)**  
-  Privacy-focused open-source activity tracker useful for automated working-time and productivity analysis.
-
-- **[Kimai Mobile](https://github.com/kimai)**  
-  Kimai's API and ecosystem enable custom mobile/web attendance clients to be built around a self-hosted time-tracking backend.
-
-- **[Nextcloud](https://github.com/nextcloud/server)**  
-  Open-source collaboration platform with a broad app ecosystem that can be extended with time-tracking, HR, calendar, forms, and workflow applications.
-
-- **[OpenProject](https://github.com/opf/openproject)**  
-  Open-source project-management platform with time tracking, work packages, resource management, and reporting that can complement employee timesheet systems.
-
-- **[Redmine](https://github.com/redmine/redmine)**  
-  Open-source project-management platform with time tracking and activity reporting that can support project-based employee time recording.
-
-- **[Taiga](https://github.com/taigaio/taiga-back)**  
-  Open-source project-management platform useful as a complementary work and time-management layer.
-
-- **[Kanboard](https://github.com/kanboard/kanboard)**  
-  Open-source project-management system with task tracking and time-estimation capabilities that can complement time-recording systems.
-
-### Additional Strong Open-Source Options
-
-- **Open-Source Time Trackers** for employee punch-in/out, timesheets, project hours, and reporting.
-- **Open-Source Attendance Systems** for employee clocking, shifts, attendance records, and absence tracking.
-- **Open-Source HRMS Platforms** for employee records, attendance, leave, payroll, and workforce administration.
-- **Open-Source Payroll Platforms** for transforming approved attendance and timesheet data into payroll inputs.
-- **Open-Source Scheduling Systems** for shift planning, employee availability, and workforce allocation.
-- **Open-Source Workforce Analytics** for utilization, overtime, absenteeism, and productivity analysis.
-- **Open-Source Mobile Attendance Apps** for GPS, QR-code, NFC, and mobile clock-in workflows.
-- **Open-Source Biometric Integrations** for connecting physical attendance devices to self-hosted HR systems.
-- **Open-Source Geofencing Tools** for location-aware attendance and field-worker time capture.
-- **Open-Source Workflow Engines** for automating timesheet approvals, overtime exceptions, and payroll processes.
-- **Open-Source Notification Systems** for attendance alerts, missing punches, schedule changes, and approval reminders.
-- **Open-Source BI Platforms** for workforce dashboards, attendance trends, overtime analysis, and labor-cost reporting.
-- **Open-Source API Gateways** for integrating attendance systems with payroll, HRIS, accounting, and scheduling systems.
-- **Open-Source Identity Platforms** for SSO, employee authentication, RBAC, and workforce access management.
-
-**Frameworks for building custom time & attendance platforms**: Combine **Kimai**, **solidtime**, or **Cattr** for time capture; **Frappe HR/ERPNext** for employee, attendance, leave, and payroll workflows; **OpenProject/Worklenz** for projects and work allocation; and **PostgreSQL + Grafana/Metabase** for workforce analytics. Add a mobile application, geofencing layer, biometric/time-clock integration, and payroll APIs to create a more complete self-hosted workforce-management stack.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Prioritize genuinely open-source projects with an accessible repository or clearly documented open license.
-5. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Time and attendance systems can have significant payroll, employment-law, privacy, and compliance implications.
-- Most open-source projects listed here are **building blocks rather than complete enterprise workforce-management platforms**.
-- Verify the current license before using an open-source project commercially.
-- Biometric, GPS, geofencing, and employee-monitoring features may be subject to additional privacy and employment regulations.
-- SaaS capabilities, product names, ownership, pricing, and licensing models can change over time.
-- Organizations should configure overtime, breaks, leave, rounding, scheduling, and attendance rules according to applicable employment regulations and internal policies.
-- Self-hosted systems require appropriate security, backups, access controls, audit logging, and payroll integration testing.
+</div>
 
 ---
 
-**Made for HR teams, payroll teams, workforce managers, operations teams, frontline organizations, and developers building open workforce-management infrastructure.**  
-Let's make time & attendance management more open, flexible, privacy-conscious, and efficient.
+## 📖 Table of Contents
 
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🧩 Functional Categories for Custom Platforms](#-functional-categories-for-custom-platforms)
+- [🏗️ Frameworks & Architecture for Building Custom Platforms](#️-frameworks--architecture-for-building-custom-platforms)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+A comprehensive, market-sorted directory of leading commercial Time & Attendance and Workforce Management (WFM) platforms. Sorted in descending order by **Company Size / Valuation / Market Cap**.
+
+| Product | Description | Company Size / Valuation | Starting Price | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle HCM Time & Labor](https://www.oracle.com/human-capital-management/)** 💼 | Enterprise HCM suite with automated time and labor, schedule management, absence rules, compliance controls, and payroll processing. | ~$500B+ Market Cap ($50B+ Rev) | Custom / Starts ~$15.00/employee/month (Requires minimum 1,000 users) | 30-day free trial on Oracle Cloud Infrastructure ($300 credits), no free-forever plan |
+| **[SAP SuccessFactors](https://www.sap.com/products/hcm.html)** 🌐 | Global enterprise cloud HCM suite offering employee central time tracking, shift planning, absence management, and workforce compliance. | ~$280B+ Market Cap ($35B+ Rev) | Custom / Starts ~$28.00–$38.00/employee/month | 30-day guided interactive trial / demo environment, no free-forever plan |
+| **[QuickBooks Time](https://quickbooks.intuit.com/time-tracking/)** ⏱️ | Cloud time-tracking solution integrated with Intuit QuickBooks for timesheets, GPS location tracking, scheduling, and direct payroll sync. | ~$180B+ Market Cap (Intuit) | $20.00/month base fee + $10.00/user/month (Time Premium) | 30-day free trial (full features, no credit card required), no free-forever plan |
+| **[ADP Workforce Now](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)** 👔 | All-in-one mid-to-enterprise HCM platform featuring time and attendance automation, punch clocks, scheduling, and automated tax/payroll. | ~$110B+ Market Cap ($19B+ Rev) | Custom / Starts ~$23.00–$30.00/employee/month | Live sandbox demo environment upon sales request, no self-service free tier |
+| **[Workday Time Tracking](https://www.workday.com/)** 🏢 | Enterprise cloud application combining time capture across mobile/web/biometrics with global scheduling, project hours, and payroll calculation. | ~$70B+ Market Cap ($8B+ Rev) | Custom / Starts ~$34.00–$50.00/employee/month | Custom enterprise pilot/demo via sales consultation, no free-forever plan |
+| **[Paychex Flex](https://www.paychex.com/payroll/paychex-flex)** 📊 | Unified payroll, HR, and workforce-management system with digital time clocks, geolocation attendance, shift scheduling, and PTO tracking. | ~$48B+ Market Cap ($5.4B+ Rev) | Custom / Starts ~$39.00/month base fee + $5.00/user/month | Interactive guided software test demo, no self-service free tier |
+| **[Rippling](https://www.rippling.com/)** ⚡ | Modern unified workforce platform that natively connects employee time tracking, approvals, hourly scheduling, IT devices, and payroll. | $13.5B Valuation | $35.00/month base fee + $8.00/employee/month | Custom interactive product walkthrough demo, no free-forever plan |
+| **[Ceridian Dayforce](https://www.dayforce.com/)** 🕒 | Real-time enterprise HCM and workforce platform with continuous pay calculation, time and attendance, complex scheduling, and labor compliance. | ~$10.5B Market Cap ($1.6B+ Rev) | Custom / Starts ~$22.00–$31.00/employee/month | Sales-led customized sandbox demo, no self-service free tier |
+| **[Paylocity](https://www.paylocity.com/)** 📱 | Cloud-based HR and payroll solution offering mobile time clocks, geofencing, shift scheduling, kiosk kiosks, and automated timesheets. | ~$10.2B Market Cap ($1.4B+ Rev) | Custom / Starts ~$22.00–$32.00/employee/month | Personalized product demonstration on request, no free-forever plan |
+| **[Gusto](https://gusto.com/)** 💸 | Modern payroll, benefits, and HR platform for SMBs with built-in time tracking, PTO requests, geofencing mobile clock-ins, and project hours. | $10.0B Valuation | $49.00/month base fee + $6.00/person/month (Plus plan required for full time-tracking features) | 30-day free trial on selected payroll/time tiers, no free-forever plan |
+| **[UKG Pro Workforce Management](https://www.ukg.com/products/ukg-pro-workforce-management)** 🛡️ | Enterprise workforce-management platform with AI-driven scheduling, labor-cost forecasting, time tracking, and global attendance policies. | ~$6.5B Valuation (UKG ~$4B Rev) | Custom / Starts ~$25.00–$40.00/employee/month | Sales-led enterprise virtual demo, no self-service free tier |
+| **[UKG Ready](https://www.ukg.com/products/ukg-ready)** 🔄 | Unified HR, payroll, talent, time, attendance, and shift scheduling platform engineered specifically for mid-market organizations. | ~$6.5B Valuation (UKG ~$4B Rev) | Custom / Starts ~$12.00–$18.00/employee/month | Sales-assisted guided demo, no self-service free-forever tier |
+| **[Paycor](https://www.paycor.com/)** 🧑‍💼 | Comprehensive HCM and payroll software with automated employee time card management, punch approvals, mobile scheduling, and PTO tracking. | ~$3.2B Market Cap ($650M+ Rev) | Custom / Starts ~$19.00–$27.00/employee/month | Custom guided product demo upon request, no free-forever plan |
+| **[Deltek Replicon](https://www.replicon.com/)** ⏱️ | Cloud time intelligence platform providing global time and attendance, project time tracking, labor compliance, and client billing automation. | ~$3.0B Valuation (Deltek) | Starts ~$6.00/user/month (Time & Attendance modular tier) | 14-day free trial (full access to selected module features), no free-forever tier |
+| **[Factorial](https://factorialhr.com/)** 📑 | All-in-one HR, shift management, and time-tracking suite with QR code/facial clock-ins, leave approvals, and legal compliance. | $1.0B Valuation | Starts $8.00/user/month (Billed annually; minimum user counts apply) | 14-day free trial (all features unlocked, no credit card required), no free-forever tier |
+| **[Zoho People](https://www.zoho.com/people/)** 👥 | Cloud HRMS and attendance software supporting biometric integration, IP restrictions, shift rotation, timesheets, and leave policies. | ~$1.0B+ ARR (Zoho Corp) | Starts $1.25/user/month (Essential HR) or $2.00/user/month (Professional with Timesheets) | Free-forever plan for up to 5 users (basic HR and attendance records) |
+| **[BambooHR](https://www.bamboohr.com/)** 🎋 | Intuitive HR platform with integrated time tracking, timesheets, PTO management, geofenced mobile clocking, and payroll reporting. | ~$1.0B+ Valuation (~$150M+ ARR) | Custom / Starts ~$10.00/employee/month + $3.00/user/month for Time Tracking add-on | 7-day free trial (full platform access), no free-forever plan |
+| **[Deputy](https://www.deputy.com/)** 📋 | Smart employee scheduling and time-tracking platform with facial recognition clock-ins, meal break compliance, and labor law alerts. | ~$1.0B Valuation (~$100M+ ARR) | Starts $4.50/user/month (Time & Attendance plan) or $6.00/user/month (Premium) | 31-day free trial (unlimited users and full features), no free-forever tier |
+| **[Connecteam](https://connecteam.com/)** 📲 | Frontline and deskless workforce platform featuring GPS/geofence punch clocks, shift scheduling, automated timesheets, and chat. | ~$500M+ Valuation | Starts $29.00/month flat rate (covers first 30 users, +$0.50/user thereafter) | Free-forever "Small Business Plan" for up to 10 users with full standard features |
+| **[Homebase](https://joinhomebase.com/)** 🏠 | Hourly workforce management app combining time clocks, shift scheduling, hiring, compliance, and messaging for local businesses. | ~$500M Valuation | Free plan available; Paid tiers start at $24.95/month per location (Unlimited employees) | Free-forever plan for 1 location and up to 20 employees (basic time tracking and scheduling) |
+| **[When I Work](https://wheniwork.com/)** 📅 | Shift-based employee scheduling and attendance platform with mobile time clocking, GPS verification, and timesheet approvals. | ~$300M+ Valuation | Starts $2.50/user/month (Standard Scheduling) or $4.00/user/month (with Time & Attendance) | 14-day free trial (full features, up to 75 users), no free-forever plan |
+| **[TCP Software (TimeClock Plus)](https://www.timeclockplus.com/)** ⏰ | Enterprise time and attendance software with specialized hardware time clocks, dynamic workforce scheduling, and leave management. | ~$100M+ ARR (Private Equity Backed) | Custom / Starts ~$5.00–$8.00/user/month based on deployment tier | Customized interactive software demo upon request, no free-forever plan |
+| **[CAKE.com Clockify](https://clockify.me/)** ⌛ | Widely used time-tracking and timesheet software with productivity monitoring, project tracking, kiosk clock-ins, and leave management. | ~$50M+ ARR (CAKE.com) | Starts $3.99/user/month (Basic, billed annually) or $4.99/user/month (monthly) | Free-forever plan for up to 5 users (unlimited time tracking, projects, and basic reporting) |
+| **[Hubstaff](https://hubstaff.com/)** 🛰️ | Workforce time tracking and productivity platform with GPS location tracking, automatic geofenced clock-in, timesheets, and invoicing. | ~$30M+ ARR | Starts $4.99/user/month (Starter, billed annually; minimum 2 seats) | Free-forever plan for 1 user (solo freelancer limit with basic time tracking) |
+| **[Harvest](https://www.getharvest.com/)** 🌾 | Time tracking and expense management software for teams, featuring project budgets, visual timesheets, invoicing, and integrations. | ~$25M+ ARR | Starts $10.80/seat/month (billed annually) or $12.00/seat/month (monthly) | Free-forever plan for 1 user and up to 2 active projects; 30-day free trial for Pro |
+| **[Scoro](https://www.scoro.com/)** 📊 | Comprehensive work and resource management platform with built-in time tracking, billable timesheets, project budgets, and capacity planning. | ~$20M+ ARR | Starts $26.00/user/month (Core/Essential, billed annually; minimum 5 users) | 14-day free trial (full features unlocked, no credit card required), no free-forever tier |
+| **[Toggl Track](https://toggl.com/track/)** ⏱️ | Fast, flexible time tracker with automated reminders, timesheet auditing, calendar integration, and billable hours management. | ~$20M+ ARR | Starts $9.00/user/month (Starter, billed annually) or $10.00/user/month (monthly) | Free-forever plan for up to 5 users (basic time tracking, reporting, and export tools) |
+| **[Timely](https://timelyapp.com/)** 🤖 | AI-powered automatic time-tracking platform that records application time in the background, generates timesheets, and tracks project budgets. | ~$10M+ ARR | Starts $9.00/user/month (Starter, billed annually; minimum seats apply) | 14-day free trial (full feature suite with Memory app tracker), no free-forever tier |
+| **[Jibble](https://www.jibble.io/)** 🤳 | Cloud time clock app with facial recognition, GPS geofencing, mobile attendance, automated timesheets, and overtime calculation. | ~$10M+ ARR | Starts $3.99/user/month (Premium, billed annually) or $4.99/user/month (monthly) | Free-forever plan for unlimited users (includes GPS, facial recognition, and basic timesheets) |
+| **[Buddy Punch](https://buddypunch.com/)** 🥊 | Online punch clock and timesheet app with facial recognition, GPS geofencing, QR code punches, PTO accruals, and scheduling. | ~$5M+ ARR | $19.00/month base fee + $4.99/user/month (Standard plan, billed annually) | 14-day free trial (all features unlocked, no credit card required), no free-forever tier |
+| **[Everhour](https://everhour.com/)** ⏱️ | Project-oriented time tracker seamlessly embedding inside Asana, Trello, Jira, and ClickUp with timesheets, budgeting, and payroll export. | ~$5M+ ARR | Starts $8.50/user/month (Team plan, billed annually; minimum 2 seats) | Free-forever plan for up to 5 users (lightweight tracking without deep third-party integrations) |
+| **[TimeCamp](https://www.timecamp.com/)** 🏕️ | Automatic background time tracker with project profitability, attendance tracking, computer activity monitoring, and timesheet approvals. | ~$5M+ ARR | Starts $3.99/user/month (Starter, billed annually) or $5.49/user/month (monthly) | Free-forever plan for unlimited users (basic time tracking and project hierarchy) |
+| **[Paymo](https://www.paymoapp.com/)** 💳 | Work management software combining time tracking, employee timesheets, task scheduling, Gantt charts, and client invoicing. | ~$3M+ ARR | Starts $5.90/user/month (Starter, billed annually; limited to 1 user) or $10.90/user/month (Small Team) | Free-forever plan for 1 user (up to 3 clients, 50 tasks, and basic time tracking) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore the top open-source time-tracking, attendance-recording, timesheet-auditing, and human-resource-management systems. Sorted in descending order by **GitHub Star Count** (each badge links to the repository stargazers page).
+
+| Project & Repo Link | Star Count | Language / Stack | License | Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ERPNext](https://github.com/frappe/erpnext)** | [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python, JavaScript | GPL-3.0 | Complete open-source ERP suite containing employee databases, attendance logs, shift assignment, timesheets, payroll, and leave management. |
+| **[Nextcloud Server](https://github.com/nextcloud/server)** | [![Nextcloud Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | PHP, JavaScript | AGPL-3.0 | Self-hosted collaboration cloud ecosystem extendable with community Time Tracking, Appointments, Calendar, and Form apps. |
+| **[ActivityWatch](https://github.com/ActivityWatch/activitywatch)** | [![ActivityWatch Stars](https://img.shields.io/github/stars/ActivityWatch/activitywatch?style=social&color=white)](https://github.com/ActivityWatch/activitywatch/stargazers) | Python, Rust, Vue | MPL-2.0 | Privacy-first automated time and activity tracker recording active window titles, applications, and browser usage locally. |
+| **[OpenProject](https://github.com/opf/openproject)** | [![OpenProject Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | Ruby on Rails, Angular | GPL-3.0 | Project and work management system with integrated employee time logging, cost reporting, resource allocation, and budget tracking. |
+| **[Frappe Framework](https://github.com/frappe/frappe)** | [![Frappe Stars](https://img.shields.io/github/stars/frappe/frappe?style=social&color=white)](https://github.com/frappe/frappe/stargazers) | Python, JavaScript | MIT | Full-stack web framework underlying Frappe HR and ERPNext, ideal for building custom attendance, biometric, and payroll systems. |
+| **[Kanboard](https://github.com/kanboard/kanboard)** | [![Kanboard Stars](https://img.shields.io/github/stars/kanboard/kanboard?style=social&color=white)](https://github.com/kanboard/kanboard/stargazers) | PHP | MIT | Minimalist Kanban project management tool with subtask time tracking, estimated vs. spent time analysis, and user timesheets. |
+| **[solidtime](https://github.com/solidtime-io/solidtime)** | [![solidtime Stars](https://img.shields.io/github/stars/solidtime-io/solidtime?style=social&color=white)](https://github.com/solidtime-io/solidtime/stargazers) | PHP (Laravel), Vue.js | AGPL-3.0 | Modern, open-source time-tracking platform designed for freelancers and teams with project billing, organization hierarchies, and API. |
+| **[Frappe HR (HRMS)](https://github.com/frappe/hrms)** | [![Frappe HR Stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) | Python, Vue, JS | GPL-3.0 | Modern open-source HRMS application with check-in/out attendance logs, shift scheduling, leave allocation, expense claims, and payroll. |
+| **[Dolibarr ERP/CRM](https://github.com/Dolibarr/dolibarr)** | [![Dolibarr Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers) | PHP, JavaScript | GPL-3.0 | Modular ERP/CRM with HR modules for employee attendance tracking, timesheets, leave requests, expense reports, and salary records. |
+| **[Redmine](https://github.com/redmine/redmine)** | [![Redmine Stars](https://img.shields.io/github/stars/redmine/redmine?style=social&color=white)](https://github.com/redmine/redmine/stargazers) | Ruby on Rails | GPL-2.0 | Flexible project management and issue tracker with spent-time logging, activity categorization, custom queries, and reporting. |
+| **[Kimai](https://github.com/kimai/kimai)** | [![Kimai Stars](https://img.shields.io/github/stars/kimai/kimai?style=social&color=white)](https://github.com/kimai/kimai/stargazers) | PHP (Symfony), Twig | AGPL-3.0 | Feature-packed open-source time tracker with punch clock, timesheets, multi-timezone support, invoicing, granular permissions, and REST API. |
+| **[Ever Gauzy](https://github.com/ever-co/gauzy)** | [![Gauzy Stars](https://img.shields.io/github/stars/ever-co/gauzy?style=social&color=white)](https://github.com/ever-co/gauzy/stargazers) | TypeScript (NestJS, Angular) | AGPL-3.0 | Open-source enterprise ERP, HRM, and time-tracking platform with desktop employee activity tracking, screenshots, and payroll tools. |
+| **[Worklenz](https://github.com/Worklenz/worklenz)** | [![Worklenz Stars](https://img.shields.io/github/stars/Worklenz/worklenz?style=social&color=white)](https://github.com/Worklenz/worklenz/stargazers) | TypeScript, Node.js, Angular | AGPL-3.0 | Project and workforce management platform featuring real-time task time tracking, resource allocation, timesheets, and productivity graphs. |
+| **[TimeTagger](https://github.com/almarklein/timetagger)** | [![TimeTagger Stars](https://img.shields.io/github/stars/almarklein/timetagger?style=social&color=white)](https://github.com/almarklein/timetagger/stargazers) | Python, JavaScript | GPL-3.0 | Interactive, tag-powered open-source time tracker with an intuitive timeline UI, reporting dashboards, and self-hosted backend. |
+| **[Traggo Server](https://github.com/traggo/server)** | [![Traggo Stars](https://img.shields.io/github/stars/traggo/server?style=social&color=white)](https://github.com/traggo/server/stargazers) | Go, TypeScript, React | GPL-3.0 | Self-hosted, tag-based time tracking server with customizable properties, GraphQL API, multi-user support, and web UI. |
+| **[Timeoff Management](https://github.com/timeoff-management/application)** | [![Timeoff Stars](https://img.shields.io/github/stars/timeoff-management/application?style=social&color=white)](https://github.com/timeoff-management/application/stargazers) | JavaScript (Node.js, Express) | MIT | Open-source absence, leave, and PTO management system with approval workflows, department calendars, and holiday sync. |
+| **[eHour](https://github.com/te-con/ehour)** | [![eHour Stars](https://img.shields.io/github/stars/te-con/ehour?style=social&color=white)](https://github.com/te-con/ehour/stargazers) | Java, React | AGPL-3.0 / BSD | Proven open-source web-based time tracking system for consulting firms and companies with project timesheets and exportable reports. |
+| **[Cattr](https://github.com/cattr-app/cattr-backend)** | [![Cattr Stars](https://img.shields.io/github/stars/cattr-app/cattr-backend?style=social&color=white)](https://github.com/cattr-app/cattr-backend/stargazers) | PHP (Laravel), Vue.js | AGPL-3.0 | Open-source team time tracking platform with companion desktop client, activity monitoring, screenshot capture, and detailed task reports. |
+| **[openTimetool](https://github.com/solidar-it/openTimetool)** | [![openTimetool Stars](https://img.shields.io/github/stars/solidar-it/openTimetool?style=social&color=white)](https://github.com/solidar-it/openTimetool/stargazers) | PHP, JavaScript | GPL-3.0 | Self-hosted time recording application for tracking work packages, project budgets, and employee attendance logs. |
+
+---
+
+## 🧩 Functional Categories for Custom Platforms
+
+Building a bespoke, self-hosted workforce-management solution requires assembling multiple open-source building blocks:
+
+- ⏱️ **Open-Source Time Trackers:** For punch-in/out, start-stop timers, timesheets, and exportable project hours (*Kimai, solidtime, Cattr, TimeTagger, Traggo*).
+- 📍 **Open-Source Attendance & Geofencing Systems:** For location-aware clocking, mobile QR verification, and punch log audit trails.
+- 🏢 **Open-Source HRMS & ERP Platforms:** For centralized employee records, department structures, leave management, and company policy enforcement (*Frappe HR, ERPNext, Dolibarr, Ever Gauzy*).
+- 📅 **Open-Source Scheduling Engines:** For shift planning, rotation management, employee availability, and shift swapping.
+- 💳 **Open-Source Payroll Processing Connectors:** For transforming approved attendance hours, overtime rules, and leave deductions into payroll journal entries.
+- 📊 **Open-Source Workforce Analytics & BI:** For tracking labor costs, utilization rates, absenteeism trends, and overtime monitoring (*Metabase, Grafana, Apache Superset*).
+- 🔒 **Open-Source Identity & Access Management (IAM):** For SSO, biometric device authentication, and RBAC (*Keycloak, Authentik, Zitadel*).
+
+---
+
+## 🏗️ Frameworks & Architecture for Building Custom Platforms
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                     FRONTEND / CLOCK-IN INTERFACES                      │
+│   Web Time Clock  •  Mobile GPS Check-in  •  Biometric / Kiosk Device   │
+└────────────────────────────────────┬────────────────────────────────────┘
+                                     │ (REST / GraphQL / WebSocket)
+┌────────────────────────────────────▼────────────────────────────────────┐
+│                    CORE TIME & ATTENDANCE ENGINE                        │
+│          Kimai  /  solidtime  /  Frappe HR  /  Ever Gauzy               │
+│  ┌────────────────────────┐  ┌────────────────────────────────────────┐ │
+│  │ Timesheets & Punches   │  │ Shifts, Breaks & Leave Rules           │ │
+│  └────────────────────────┘  └────────────────────────────────────────┘ │
+└────────────────────────────────────┬────────────────────────────────────┘
+                                     │ (Webhooks / Celery / Event Bus)
+┌────────────────────────────────────▼────────────────────────────────────┐
+│                    PAYROLL & ANALYTICS INTEGRATION                      │
+│   ERPNext Payroll  •  PostgreSQL Database  •  Grafana / Metabase BI     │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**Recommended Custom Stack Blueprint:**
+1. **Time Capture Layer:** Deploy **[Kimai](https://github.com/kimai/kimai)** or **[solidtime](https://github.com/solidtime-io/solidtime)** for web, mobile, and API-driven punch clocks.
+2. **Workforce & HR Layer:** Deploy **[Frappe HR](https://github.com/frappe/hrms)** on **[Frappe Framework](https://github.com/frappe/frappe)** for shift management, leave approvals, holiday calendars, and salary structures.
+3. **Project & Task Layer:** Connect **[OpenProject](https://github.com/opf/openproject)** or **[Worklenz](https://github.com/Worklenz/worklenz)** for project timesheets and resource planning.
+4. **Analytics & BI Layer:** Stream attendance records into **PostgreSQL** visualized via **Grafana** or **Metabase** dashboards for real-time labor cost tracking.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Time-n-Attendance-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Time-n-Attendance-Platform&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 Fork this repository.
+2. 📝 Add or edit entries in `README.md` following the tabular schema.
+3. 🔍 Provide exact starting prices, free tier / trial limits, and official links for SaaS products.
+4. ⭐ For open-source tools, include the repository URL, star badge linking to `/stargazers`, stack, and license.
+5. 🚀 Submit a Pull Request with a concise summary of changes.
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated index** for informational purposes.
+- Time and attendance systems often handle sensitive employee location data and biometric information; ensure adherence to local labor laws, GDPR, and privacy regulations.
+- Commercial SaaS pricing, free tier terms, and feature sets change frequently; verify directly on each vendor's website.
+- Verify open-source software licenses before deployment in commercial or self-hosted environments.
+
+---
+
+<div align="center">
+
+**Maintained with ❤️ for HR teams, workforce managers, developers, and operations leaders.**
+
+</div>
